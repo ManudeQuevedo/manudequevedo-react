@@ -1,0 +1,139 @@
+.q-section {
+  display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+  grid-template-areas: '. content .';
+  padding: 50px 0;
+}
+
+.q-section-wrapper {
+  display: grid;
+  grid-area: content;
+}
+
+.q-section-wrapper > .title {
+  text-align: center;
+}
+
+.q-section-wrapper > .title > h1 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #0280c2;
+}
+
+.q-section-wrapper > .title > h3 {
+  margin: 5px 0;
+  color: #8e969b;
+}
+
+.q-section-wrapper > .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 5vw;
+}
+
+.q-section-desc {
+  display: grid;
+  grid-template-columns: 410px 1fr;
+  grid-column-gap: 20px;
+}
+
+.q-section-desc > div:first-child {
+  height: 700px;
+  /* background-image: url('../images/phone.svg'); */
+  background-size: 1640px;
+  width: 410px;
+}
+
+.q-section-desc > div:last-child {
+  display: grid;
+  grid-row-gap: 20px;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.q-section-desc > div:last-child > div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-column-gap: 20px;
+  text-align: justify;
+}
+
+.icon-desc {
+  width: 50px;
+  height: 50px;
+  /* background-image: url('../images/sprite-products.svg'); */
+  background-size: 650px;
+}
+
+.icon-desc.marketing {
+  background-position: -50px 0;
+}
+
+.icon-desc.auth {
+  background-position: -100px 0;
+}
+
+.icon-desc.more {
+  background-position: -150px 0;
+}
+
+.icon-desc.support {
+  background-position: -0px -50px;
+}
+
+.icon-desc.factor {
+  background-position: -50px -50px;
+}
+
+.icon-desc.verified {
+  background-position: -200px -50px;
+}
+
+.icon-desc.rich {
+  background-position: -0px -100px;
+}
+
+.icon-desc.engagement {
+  background-position: -50px -100px;
+}
+
+.icon-desc.bot {
+  background-position: -100px -100px;
+}
+
+.q-section-desc > div:last-child > div > div.info > h3 {
+  color: #0280c2;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.q-section-desc > div:last-child > div > div.info > div {
+  color: #8e969b;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .q-section-desc,
+  .q-section {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'content';
+    box-sizing: border-box;
+    grid-column-gap: 0;
+  }
+  .q-section-wrapper > .content {
+  }
+
+  .q-section-desc > div:first-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .q-section-desc > div:last-child > div {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 20px;
+  }
+}

@@ -1,0 +1,171 @@
+.banner-home {
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  animation: animatedBackground 120s linear infinite;
+  display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+  box-sizing: border-box;
+  grid-template-areas: '. content .';
+  height: 100vh;
+}
+
+.particle-canvas {
+   position:fixed !important;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+   z-index: -1;
+}
+
+.banner-home > .content-basic {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.banner-home > .content-basic > h1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 70px;
+   font-weight: 700;
+   color: #1b1a1f;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+.banner-home > .content-basic > h2 {
+   font-family: 'Satisfy', serif;
+   font-size: 60px;
+   color: #13eba2;
+   margin: 0;
+}
+
+.buttom-banner {
+  display: inline-block;
+  margin: 85px 0 10px 0;
+}
+
+.optional-links {
+  display: grid;
+  margin: 10px auto;
+  justify-items: center;
+}
+
+.optional-links > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #444c52;
+}
+
+.optional-links > a > span {
+  color: #0280c2;
+}
+
+.card-a > .text {
+   color: #1b1a1f;
+   font-family: 'Montserrat';
+   font-size: 1.6rem;
+   font-weight: 400;
+   line-height: 2rem;
+   min-height: 100px;
+   margin-top: 75px;
+}
+
+.card-a > .text:nth-of-type(2) {
+   margin-top: 0;
+}
+
+img.image {
+  width: 500px;
+  z-index: 1;
+}
+
+.line-break {
+   margin: 20px 0;
+}
+
+.work-together {
+   color: #1b1a1f;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3.5rem;
+   font-weight: 400;
+}
+
+.work-together2 {
+   color: #13eba2;
+   font-family: 'Satisfy', serif;
+   font-size: 6.5rem;
+   font-weight: 400;
+}
+
+.grid-2 > .work-together3 {
+   text-align: center;
+}
+
+.learnMore {
+  display: grid;
+  background-color: #ececec9a;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position-y: center;
+    background-position-x: left;
+  }
+
+  to {
+    background-position-y: center;
+    background-position-x: right;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .banner-home {
+    grid-template-columns: 1fr;
+  }
+
+  .readyToStart {
+    grid-column: 2;
+  }
+
+  .banner-home > .content-basic > h1,
+  .banner-home > .content-basic > h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .readyToStart {
+    display: none;
+  }
+
+  .buttom-banner {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+   .card-a > .text {
+      color: #1b1a1f;
+      font-family: 'Montserrat';
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2rem;
+      margin-top: 30px;
+   }
+
+   img.image {
+      margin: 20px 0;
+      width: 350px;
+      z-index: 100;
+   }
+
+   .content-basic {
+      padding: 0;
+   }
+
+   .grid-2 {
+      padding: 0;
+   }
+}
