@@ -5,6 +5,10 @@ import contactImage from '../assets/img/contact.svg'
 import Particles from "react-particles-js"
 import ParticlesJS from "../assets/particlesjs-contact-config.json"
 import '../assets/styles/contact.css'
+import Twitter from '../assets/img/twitter.png'
+import Facebook from "../assets/img/facebook.png"
+import Pinterest from "../assets/img/pinterest.png"
+
 
 const mapStateToProps = state => {
   return {
@@ -34,29 +38,44 @@ export default connect(mapStateToProps)(props => {
           <div className="title">
             <p className="text">{contactLang.header.subtitle[props.lang]}</p>
           </div>
-          <div className="grid-1">
-            <h1>Form is here</h1>
-            <form name="contact" method="post" data-netlify="true">
-              <input type="hidden" name="form-name" value="contact" />
-              <p>
-                <label>
-                  Your Name: <input type="text" name="name" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Your Email: <input type="email" name="email" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Message: <textarea name="message"></textarea>
-                </label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
+          <div className="grid-2">
+            <div className="contact-email">
+              <h1>{contactLang.header.email[props.lang]}</h1>
+              <a
+                href="mailto:hola@manudequevedo.com"
+                className="btn btn-ghost callToAction"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                hola@manudequevedo.com
+              </a>
+            </div>
+            <div className="contact-social">
+              <h1>{contactLang.header.social[props.lang]}</h1>
+              <div className="grid-3 margin-contact">
+                <a
+                  href="https://twitter.com/ManudeQuevedo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src={Twitter} alt="twitter logo" />
+                </a>
+                <a
+                  href="https://www.facebook.com/elmanumx/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src={Facebook} alt="facebook logo" />
+                </a>
+                <a
+                  href="https://www.pinterest.com.mx/manudequevedo/overview/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src={Pinterest} alt="pinterest logo" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

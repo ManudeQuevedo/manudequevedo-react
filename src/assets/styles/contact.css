@@ -2,6 +2,25 @@
    width: 550px;
 }
 
+.contact-email {
+   text-align: center;
+}
+
+.contact-social {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.contact-email > h1,
+.contact-social > h1 {
+   font-family: 'Montserrat', sans-serif;
+   weight: 400 !important;
+}
+
+.margin-contact {
+   margin-top: 50px;
+}
+
 .text {
   color: #13eba2;
   font-family: 'Satisfy', serif;
@@ -15,4 +34,15 @@
   font-family: 'Satisfy', serif;
   font-size: 2.7rem;
   font-weight: regular;
+}
+
+@media only screen and (max-width: 720px) {
+   .contact-image {
+      width: 370px;
+   }
+
+   .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
 }

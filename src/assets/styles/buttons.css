@@ -1,5 +1,5 @@
 .btn-solid {
-  background-color: #0280c2;
+  background-color: #13eba2;
   box-sizing: border-box;
   color: #fff;
   font-weight: bold;
@@ -10,8 +10,8 @@
 
 .btn-solid:hover {
   background-color: transparent;
-  color: #0280c2;
-  border-color: #0280c2;
+  color: #13eba2;
+  border-color: #13eba2;
   transition: 500ms all;
 }
 
@@ -20,6 +20,7 @@
   box-sizing: border-box;
   color: #1b1a1f;
   text-decoration: none;
+  text-align: center;
   transition: 500ms all;
 }
 

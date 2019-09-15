@@ -12,29 +12,13 @@
          "es": "Juntos podemos hacer que tu próximo proyecto sea todo un éxito",
          "en": "Together, we can make your next project a total success"
       },
-      "card1": {
-         "es": "Salario Competitivo",
-         "en": "Competitive Salary"
+      "email": {
+         "es": "Envíame un correo a:",
+         "en": "Send me an email to:"
       },
-      "card2": {
-         "es": "Flexibilidad",
-         "en": "Flexibility"
-      },
-      "card3": {
-         "es": "Trabajo por objetivos",
-         "en": "Work by Objectives"
-      },
-      "card4": {
-         "es": "Capacitación",
-         "en": "Training"
-      },
-      "card5": {
-         "es": "Vacaciones",
-         "en": "Vacations"
-      },
-      "card6": {
-         "es": "Otros Beneficios",
-         "en": "Others"
+      "social": {
+         "es": "Sigueme:",
+         "en": "Follow me:"
       }
    }
 }
