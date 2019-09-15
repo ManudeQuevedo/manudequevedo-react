@@ -15,18 +15,24 @@
       "text3": {
          "es": "Estas son mis habilidades de programación actuales:",
          "en": "These are my current programming skill:"
+      }
+   },
+   "skills": {
+      "title1": {
+         "es": "Front End",
+         "en": "Front End"
       },
-      "text4": {
-         "es": "A partir de 2007, Quiubas fue la primera company en México en ofrecer mensajes SMS para que las empresas lleguen a sus clientes. A través de todos estos años, nos convertimos en expertos en el campo. En 2014 Quiubas! Se convirtió en Quiubas Mobile, para reflejar nuestra oferta de servicios móviles.",
-         "en": "Starting in 2007, Quiubas was the first company in Mexico to offer SMS messaging for companies to reach clients. Through all these years, we became experts in the field. In 2014 Quiubas! Became Quiubas Mobile, to reflect our mobile services offering."
+      "title2": {
+         "es": "Back End",
+         "en": "Back End"
       },
-      "text5": {
-         "es": "Estamos orgullosos de ser socios a largo plazo con los agregadores más grandes de la industria, así como también con OTT e instituciones financieras líderes en México.",
-         "en": "We are proud to be long-termed partners with the largest aggregators in the industry, as well as leading OTTs and financial institutions in Mexico."
+      "title3": {
+         "es": "Otras",
+         "en": "Others"
       },
-      "text6": {
-         "es": "La calidad y el compromiso de Quiubas Mobile para fomentar y desarrollar una industria de mensajería más segura ha hecho un agregador regional preferido de América Móvil.",
-         "en": "Quiubas Mobile quality and commitment to foster and develop a more secure messaging industry has made a preferred America Movil regional aggregator."
+      "title4": {
+         "es": "Cosas que quiero aprender",
+         "en": "Things I want to learn"
       }
    }
 }

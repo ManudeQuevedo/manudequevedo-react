@@ -25,6 +25,7 @@ span.footer-dev {
   color: #1b1a1f;
   width: 100%;
   display: block;
+  z-index: 100;
 }
 
 @media only screen and (max-width: 720px) {

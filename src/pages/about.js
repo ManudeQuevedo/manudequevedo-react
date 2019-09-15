@@ -33,7 +33,9 @@ export default connect(mapStateToProps)(props => {
         <div className="content-basic">
           <div className="grid-4">
             <div className="front-end-skills">
-              <h3 className="skills-title">Front End</h3>
+              <h3 className="skills-title">
+                {aboutLang.skills.title1[props.lang]}
+              </h3>
               <ul className="list-item">
                 <li>JavaScript ES6+</li>
                 <li>jQuery</li>
@@ -49,7 +51,9 @@ export default connect(mapStateToProps)(props => {
               </ul>
             </div>
             <div className="back-end-skills">
-              <h3 className="skills-title">Back End</h3>
+              <h3 className="skills-title">
+                {aboutLang.skills.title2[props.lang]}
+              </h3>
               <ul className="list-item">
                 <li>NodeJS</li>
                 <li>ExpressJS</li>
@@ -62,7 +66,9 @@ export default connect(mapStateToProps)(props => {
               </ul>
             </div>
             <div className="back-end-skills">
-              <h3 className="skills-title">Others</h3>
+              <h3 className="skills-title">
+                {aboutLang.skills.title3[props.lang]}
+              </h3>
               <ul className="list-item">
                 <li>Git / GitHub</li>
                 <li>Command Line</li>
@@ -77,7 +83,9 @@ export default connect(mapStateToProps)(props => {
               </ul>
             </div>
             <div className="back-end-skills">
-              <h3 className="skills-title">Things I want to learn</h3>
+              <h3 className="skills-title">
+                {aboutLang.skills.title4[props.lang]}
+              </h3>
               <ul className="list-item">
                 <li>Gatsby</li>
                 <li>Python</li>
