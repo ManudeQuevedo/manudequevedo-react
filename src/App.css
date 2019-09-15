@@ -1,33 +1,215 @@
-.App {
-  text-align: center;
+/* @import './assets/css/banner.css'; */
+@import './assets/styles/buttons.css';
+/* @import './assets/css/card.css'; */
+/* @import './assets/css/description.css'; */
+@import './assets/styles/sections.css';
+/* @import './assets/css/titles.css'; */
+@import './assets/styles/hamburgers.css';
+
+body {
+  background-color: #fff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.app-wrapper {
+  padding-top: 0;
+}
+
+.base-grid {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 1fr 1280px 1fr;
+}
+
+.bg-blue {
+  background-color: #0280c2;
+}
+
+.content-basic {
+  display: grid;
+  grid-column: 2;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  padding: 50px 0;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.content-basic > .title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content-basic > .title > h1 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #0280c2;
+}
+
+.content-basic > .title > h3 {
+  margin: 5px 0;
+  color: #8e969b;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0;
+  grid-column-gap: 50px;
+}
+
+.grid-2 > div > h1 {
+  text-align: left;
+}
+
+.grid-2 > div > p {
+  text-align: justify;
+}
+
+.grid-2 > div.img {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-3 {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  display: grid;
+  margin: 50px 0;
+  grid-column-gap: 20px;
+  align-items: unset !important;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.legal > p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444c52;
+}
+
+.legal > ol > li {
+  padding: 5px 0;
+}
+
+.legal > h5 {
+  font-size: 24px;
+  color: #444c52;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.content-basic.legal {
+  justify-items: left;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float3d {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseOpacity {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .base-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  .content-basic {
+    grid-column: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner > .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .banner > .wrapper > .imagen {
+    display: none;
+  }
+
+  .grid-3,
+  .grid-3-5 {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-row-gap: 20px;
+    /* grid-template-columns: minmax(100px, 1fr); */
+  }
+  .grid-3 > *:nth-child(3n) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+  }
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+    grid-column-gap: 50px;
+  }
+  
+  .grid-3 {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+  .grid-3-5 {
+    grid-template-columns: repeat(3, min-max(100px, 1fr));
+    grid-row-gap: 20px;
+    grid-columns-gap: 20px;
+  }
+  .grid-3 > *:nth-child(3n) {
+    grid-column: 1;
   }
 }
