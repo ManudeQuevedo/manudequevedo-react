@@ -1,5 +1,3 @@
-# Manu de Quevedo
-
 [![logo-blanco-verde.png](https://i.postimg.cc/xjWv2qsL/logo-blanco-verde.png)](https://postimg.cc/3WF4jrQw)
 
 My new website is here! Feel free to take a look to the code and give me your honest opinion about it.
