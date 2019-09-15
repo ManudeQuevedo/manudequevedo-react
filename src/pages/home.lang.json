@@ -1,0 +1,36 @@
+{
+   "header": {
+      "title": {
+         "es": "Desarrollo increíble en",
+         "en": "I develop incredible in"
+      }
+   },
+   "steps": {
+      "cards": {
+         "register": {
+            "text": {
+               "es": "Desarrollo productos web de primer nivel con un enfoque en la rentabilidad de tu negocio en línea.",
+               "en": "I develop top-notch website products with a focus on your online business profitability."
+            },
+            "text2": {
+               "es": "Mis habilidades son amplias desde el desarrollo front-end hasta el back-end. Disfruto de cada aspecto y me encanta crear aplicaciones web de principio a fin, para clientes de todo el mundo. ",
+               "en": " My skills are broad from front-end to back-end development. I enjoy each aspect, and love building web apps from start to finish, for clients all over the world."
+            }
+         }
+      },
+      "learn": {
+         "text1": {
+            "es": "Vamos a trabajar",
+            "en": "Let's work"
+         },
+         "text2": {
+            "es": "Juntos.",
+            "en": "Together."
+         },
+         "button": {
+            "es": "Contactarme",
+            "en": "Contact Me"
+         }
+      }
+   }
+}
