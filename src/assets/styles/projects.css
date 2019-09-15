@@ -11,3 +11,11 @@
    font-weight: 400;
    margin: 40px 0;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+   .project-image {
+      width: 370px;
+      margin: 0 auto;
+      padding: 50px 0;
+   }
+}
