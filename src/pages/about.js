@@ -20,7 +20,7 @@ export default connect(mapStateToProps)(props => {
           <div className="grid-1">
             <img className="about-image" src={Image} alt="Computer" />
             <div className="about-text">
-              <h1 className="blue">{aboutLang.header.title[props.lang]}</h1>
+              <h1 className="about-title">{aboutLang.header.title[props.lang]}</h1>
               <p>{aboutLang.header.text1[props.lang]}</p>
               <p>{aboutLang.header.text2[props.lang]}</p>
               <p>{aboutLang.header.text3[props.lang]}</p>

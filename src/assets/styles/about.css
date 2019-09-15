@@ -4,7 +4,7 @@
    width: 700px;
 }
 
-.blue {
+.about-title {
    color: #13eba2;
    font-family: 'Satisfy', serif;
    font-size: 3rem;
@@ -16,6 +16,7 @@
    font-family: 'Montserrat', sans-serif;
    font-size: 1.3rem;
    font-weight: 400;
+   margin-top: 40px;
 }
 
 .skills-container {

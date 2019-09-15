@@ -7,3 +7,5 @@ As a developer I'm constantly looking to improve and learn new things, if there'
 This repo is Open Source, so if you want to use it for your own personal usage, feel free to fork it and modify according to your own requirements.
 
 ## Hope you enjoy visiting my website.
+
+# Important: I used Yarn for this project, do not use NPM or you'll start having Node Packages issues.
