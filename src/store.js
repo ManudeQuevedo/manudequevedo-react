@@ -44,9 +44,9 @@ const store = createStore(
   reducers,
   initialState,
   compose(
-    applyMiddleware(...middlewares),
-    /** remove this line to compile */ window.__REDUX_DEVTOOLS_EXTENSION__ &&
-      window.__REDUX_DEVTOOLS_EXTENSION__()
+    applyMiddleware(...middlewares)
+    // /** remove this line to compile */ window.__REDUX_DEVTOOLS_EXTENSION__ &&
+    //   window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 )
 
