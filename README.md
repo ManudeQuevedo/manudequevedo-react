@@ -8,4 +8,6 @@ This repo is Open Source, so if you want to use it for your own personal usage, 
 
 ## Hope you enjoy visiting my website.
 
-# Important: I used Yarn for this project, do not use NPM or you'll start having Node Packages issues.
+### Important: I used Yarn for this project, do not use NPM or you'll start having Node Packages issues.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/42ab48ed-ff0b-4476-9bfa-f85e17a5b7c0/deploy-status)](https://app.netlify.com/sites/manudequevedo-react/deploys)
