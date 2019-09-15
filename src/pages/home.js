@@ -37,7 +37,7 @@ export default connect(mapStateToProps)(props => {
               }}
             />
           </h2>
-          <Particles className="particle-canvas" params={ParticlesJS} />
+          {/* <Particles className="particle-canvas" params={ParticlesJS} /> */}
         </div>
       </div>
       <div className="base-grid">
