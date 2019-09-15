@@ -1,0 +1,30 @@
+{
+   "menu": {
+      "home": {
+         "es": "Inicio",
+         "en": "Home"
+      },
+      "about": {
+         "main": {
+            "es": "Acerca",
+            "en": "About me"
+         }
+      },
+      "projects": {
+         "es": "Projectos",
+         "en": "Projects"
+      },
+      "contact": {
+         "main": {
+            "es": "Contacto",
+            "en": "Contact"
+         }
+      },
+      "responsive": {
+         "menu": {
+            "es": "Menú",
+            "en": "Menu"
+         }
+      }
+   }
+}

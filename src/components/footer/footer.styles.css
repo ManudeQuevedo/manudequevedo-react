@@ -1,0 +1,40 @@
+span.footer-dev {
+  color: #13eba2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.footer-copyrights {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  box-shadow: 5px 5px 10px #444c523b;
+}
+
+.footer-bottom > .content-basic {
+  grid-template-columns: 1fr;
+  padding: 10px 5px;
+}
+
+.footer-bottom > .content-basic > div:first-child {
+  text-align: center;
+  color: #1b1a1f;
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 720px) {
+  .footer-bottom > .content-basic {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-row-gap: 20px;
+  }
+  .footer-bottom > .content-basic > div:first-child {
+    text-align: center;
+  }
+  .footer-bottom > .content-basic > div:last-child {
+    justify-items: center;
+  }
+}
