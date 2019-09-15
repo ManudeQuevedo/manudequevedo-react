@@ -268,7 +268,7 @@ select.dropdown-options {
     display: grid;
     grid-area: content;
     grid-template-columns: 300px 1fr;
-    padding: 0 80px;
+    padding: 0;
     box-sizing: border-box;
   }
 }
