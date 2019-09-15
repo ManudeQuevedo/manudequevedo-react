@@ -20,8 +20,8 @@ const mapStateToProps = state => {
 
 // Set up the languages and code to be recognized
 const allLanguages = [
-   { code: "es", name: "Español" },
-   { code: "en", name: "English" }
+  { code: "en", name: "English" },
+  { code: "es", name: "Español" }
 ]
 
 export default connect(mapStateToProps)(props => {

@@ -1,0 +1,116 @@
+.banner {
+  width: 100vw;
+  min-height: 400px;
+  box-sizing: border-box;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1280px 1fr;
+}
+
+.banner > .wrapper {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 0;
+}
+
+.banner > .wrapper > .info > h1 {
+   color: #1b1a1f;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.7rem;
+   margin-top: 180px;
+}
+
+.banner > .wrapper > .info > .text {
+  color: #13eba2;
+  font-family: 'Satisfy', serif;
+  font-size: 2.2rem;
+  font-weight: regular;
+  margin: 40px 0;
+}
+
+.banner > .wrapper > .imagen {
+  justify-self: right;
+  position: relative;
+}
+
+.banner > .wrapper > .imagen > div {
+  /* background-image: url('../images/sprite-icons.svg'); */
+  background-size: 1900px;
+  width: 380px;
+  height: 380px;
+  z-index: 2;
+}
+
+.banner > .wrapper > .imagen:before,
+.banner > .wrapper > .imagen:after {
+  border: 35px solid #acc1d1;
+  content: '';
+  left: 40px;
+  right: 40px;
+  top: 40px;
+  bottom: 40px;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+  z-index: -1;
+  opacity: 0;
+  animation: wavesBanner 2s linear infinite;
+}
+
+.banner > .wrapper > .imagen:after {
+  border-color: #027fc2;
+  animation-delay: 0.5s;
+}
+
+@keyframes wavesBanner {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes animationBanner {
+  from {
+    background-position-y: center;
+    background-position-x: left;
+  }
+
+  to {
+    background-position-y: center;
+    background-position-x: right;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .banner {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner > .wrapper {
+    grid-column: 1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner > .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .banner > .wrapper > .imagen {
+    display: none;
+  }
+
+  .banner > .wrapper > .info > h1,
+  .banner > .wrapper > .info > h2 {
+    font-size: 30px;
+  }
+}

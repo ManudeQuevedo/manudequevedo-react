@@ -3,8 +3,8 @@ import { connect } from "react-redux"
 import aboutLang from "./about.lang.json"
 import Image from '../assets/img/computer.svg'
 import '../assets/styles/about.css'
-import Particles from "react-particles-js";
-import ParticlesJS from "../assets/particlesjs-about-config.json";
+import Particles from "react-particles-js"
+import ParticlesJS from "../assets/particlesjs-about-config.json"
 
 const mapStateToProps = state => {
   return {

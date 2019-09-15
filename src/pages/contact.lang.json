@@ -1,0 +1,40 @@
+{
+   "header": {
+      "title": {
+         "es": "¿Tienes un proyecto en mente? ¡Platiquémos ",
+         "en": "Have a project in mind? Let's talk "
+      },
+      "title2": {
+         "es": " Hoy!",
+         "en": " Today!"
+      },
+      "subtitle": {
+         "es": "Juntos podemos hacer que tu próximo proyecto sea todo un éxito",
+         "en": "Together, we can make your next project a total success"
+      },
+      "card1": {
+         "es": "Salario Competitivo",
+         "en": "Competitive Salary"
+      },
+      "card2": {
+         "es": "Flexibilidad",
+         "en": "Flexibility"
+      },
+      "card3": {
+         "es": "Trabajo por objetivos",
+         "en": "Work by Objectives"
+      },
+      "card4": {
+         "es": "Capacitación",
+         "en": "Training"
+      },
+      "card5": {
+         "es": "Vacaciones",
+         "en": "Vacations"
+      },
+      "card6": {
+         "es": "Otros Beneficios",
+         "en": "Others"
+      }
+   }
+}
