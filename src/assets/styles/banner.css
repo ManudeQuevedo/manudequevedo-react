@@ -1,6 +1,5 @@
 .banner {
   width: 100vw;
-  min-height: 400px;
   box-sizing: border-box;
   padding-top: 80px;
   display: grid;
@@ -113,4 +112,26 @@
   .banner > .wrapper > .info > h2 {
     font-size: 30px;
   }
+}
+
+@media only screen and (max-width: 720px) {
+   .banner > .wrapper > .info > h1 {
+      color: #1b1a1f;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.7rem;
+      margin-top: 80px;
+      margin-bottom: 80px;
+   }
+
+   .banner > .wrapper > .info > .text {
+      color: #13eba2;
+      font-family: 'Satisfy', serif;
+      font-size: 2.2rem;
+      font-weight: regular;
+      margin: 40px 0;
+   }
+
+   .contact-image {
+    width: 370px;
+   }
 }
