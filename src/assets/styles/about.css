@@ -13,6 +13,7 @@
 }
 
 .about-text {
+   color: #1b1a1f !important;
    font-family: 'Montserrat', sans-serif;
    font-size: 1.3rem;
    font-weight: 400;
