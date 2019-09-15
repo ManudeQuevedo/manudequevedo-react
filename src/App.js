@@ -6,6 +6,7 @@ import { Provider } from "react-redux"
 import Store from "./store"
 import Layout from './components/layout'
 import Home from "./pages/home"
+import About from './pages/about'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Layout>
             <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
           </Layout>
         </Switch>
       </Router>

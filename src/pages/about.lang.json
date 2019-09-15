@@ -1,0 +1,32 @@
+{
+   "header": {
+      "title": {
+         "es": "Conoce más detalles sobre mi",
+         "en": "Know a more details about me"
+      },
+      "text1": {
+         "es": "Comencé con un plan simple en mente, para convertirme en un gran desarrollador web, todo comenzó en 2018 cuando me inscribí en el IronHack Bootcamp en la Ciudad de México, tenía un buen conocimiento de HTML y CSS pero no conocía ningún lenguaje de programación , ni cómo hacer que los sitios web sean más interactivos utilizando el poder de JavaScript o cualquier otro lenguaje de programación.",
+         "en": "I started with a simple plan in mind, to become a great Web Developer, It all started back in 2018 when I enrolled in the IronHack Bootcamp in Mexico City, I had some good knowledge with HTML and CSS but I did not know any programming language, nor how to make websites more interactive using the power of JavaScript or any other programming language."
+      },
+      "text2": {
+         "es": "Tenía un interés genuino en JavaScript (y todavía lo tengo), ¿por qué? Bueno, porque es el lenguaje de programación de la web y hay muchas cosas que puedes construir con él.",
+         "en": "I had a genuine interest in JavaScript (and still have it), why? Well, because it is the programming language of the web and there's a lot of things you can build with it."
+      },
+      "text3": {
+         "es": "Estas son mis habilidades de programación actuales:",
+         "en": "These are my current programming skill:"
+      },
+      "text4": {
+         "es": "A partir de 2007, Quiubas fue la primera company en México en ofrecer mensajes SMS para que las empresas lleguen a sus clientes. A través de todos estos años, nos convertimos en expertos en el campo. En 2014 Quiubas! Se convirtió en Quiubas Mobile, para reflejar nuestra oferta de servicios móviles.",
+         "en": "Starting in 2007, Quiubas was the first company in Mexico to offer SMS messaging for companies to reach clients. Through all these years, we became experts in the field. In 2014 Quiubas! Became Quiubas Mobile, to reflect our mobile services offering."
+      },
+      "text5": {
+         "es": "Estamos orgullosos de ser socios a largo plazo con los agregadores más grandes de la industria, así como también con OTT e instituciones financieras líderes en México.",
+         "en": "We are proud to be long-termed partners with the largest aggregators in the industry, as well as leading OTTs and financial institutions in Mexico."
+      },
+      "text6": {
+         "es": "La calidad y el compromiso de Quiubas Mobile para fomentar y desarrollar una industria de mensajería más segura ha hecho un agregador regional preferido de América Móvil.",
+         "en": "Quiubas Mobile quality and commitment to foster and develop a more secure messaging industry has made a preferred America Movil regional aggregator."
+      }
+   }
+}
