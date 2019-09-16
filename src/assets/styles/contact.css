@@ -41,8 +41,14 @@
       width: 370px;
    }
 
-   .grid-3 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+   .contact-social {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+   }
+
+   .contact-social > h1 {
+      text-align: center !important;
+      width: 100%;
    }
 }

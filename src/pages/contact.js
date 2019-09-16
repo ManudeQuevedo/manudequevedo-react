@@ -2,12 +2,13 @@ import React from "react"
 import { connect } from "react-redux"
 import contactLang from "./contact.lang.json"
 import contactImage from '../assets/img/contact.svg'
+import { Link } from "react-router-dom"
 import Particles from "react-particles-js"
 import ParticlesJS from "../assets/particlesjs-contact-config.json"
-import '../assets/styles/contact.css'
-import Twitter from '../assets/img/twitter.png'
 import Facebook from "../assets/img/facebook.png"
 import Pinterest from "../assets/img/pinterest.png"
+import Twitter from '../assets/img/twitter.png'
+import '../assets/styles/contact.css'
 
 
 const mapStateToProps = state => {
@@ -52,29 +53,27 @@ export default connect(mapStateToProps)(props => {
             </div>
             <div className="contact-social">
               <h1>{contactLang.header.social[props.lang]}</h1>
-              <div className="grid-3 margin-contact">
-                <a
-                  href="https://twitter.com/ManudeQuevedo"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img src={Twitter} alt="twitter logo" />
-                </a>
-                <a
-                  href="https://www.facebook.com/elmanumx/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img src={Facebook} alt="facebook logo" />
-                </a>
-                <a
-                  href="https://www.pinterest.com.mx/manudequevedo/overview/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img src={Pinterest} alt="pinterest logo" />
-                </a>
-              </div>
+              <a
+                href="https://twitter.com/ManudeQuevedo"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img src={Twitter} alt="twitter logo" />
+              </a>
+              <a
+                href="https://www.facebook.com/elmanumx/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img src={Facebook} alt="facebook logo" />
+              </a>
+              <a
+                href="https://www.pinterest.com.mx/manudequevedo/overview/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img src={Pinterest} alt="pinterest logo" />
+              </a>
             </div>
           </div>
         </div>

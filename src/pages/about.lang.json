@@ -5,14 +5,18 @@
          "en": "Know more details about me"
       },
       "text1": {
-         "es": "Comencé con un plan simple en mente, para convertirme en un gran desarrollador web, todo comenzó en 2018 cuando me inscribí en el IronHack Bootcamp en la Ciudad de México, tenía un buen conocimiento de HTML y CSS pero no conocía ningún lenguaje de programación , ni cómo hacer que los sitios web sean más interactivos utilizando el poder de JavaScript o cualquier otro lenguaje de programación.",
-         "en": "I started with a simple plan in mind, to become a great Web Developer, It all started back in 2018 when I enrolled in the IronHack Bootcamp in Mexico City, I had some good knowledge with HTML and CSS but I did not know any programming language, nor how to make websites more interactive using the power of JavaScript or any other programming language."
+         "es": "Soy un emprendedor de 29 años con la pasión de dedicarme a mi hobby que es el Desarrollo Web. Para hacerte saber más sobre mí, soy como todos los demás, tengo una familia, me encantan los deportes y me gusta jugar con mi perro Ghost.",
+         "en": "I'm a 29 years old entrepreneur with the passion of embracing my hobby which is Web Development. To let you know more about me, I'm like everyone else, I have a family, I love sports, and I like to play with my dog Ghost (Picture)."
       },
       "text2": {
-         "es": "Tenía un interés genuino en JavaScript (y todavía lo tengo), ¿por qué? Bueno, porque es el lenguaje de programación de la web y hay muchas cosas que puedes construir con él.",
-         "en": "I had a genuine interest in JavaScript (and still have it), why? Well, because it is the programming language of the web and there's a lot of things you can build with it."
+         "es": "Comencé con conocimientos básicos, pero decidí ampliar ese conocimiento ingresando a un campo de arranque de codificación en IronHack, donde tuve la oportunidad de conocer a increíbles maestros de desarrollo web que me enseñaron: JavaScript en profundidad, ExpressJS, NodeJS, ReactJS y MongoDB.",
+         "en": "I started with basic knowledge, but decided to expand that knowledge by entering a Coding Bootcamp at IronHack, where I got the opportunity to meet incredible Web Development Teachers who taught me: in-depth JavaScript, ExpressJS, NodeJS, ReactJS, and MongoDB."
       },
       "text3": {
+         "es": "Ahora tengo el conocimiento, la capacidad y la pasión para ayudarte a crear el próximo sitio web que impulsará tu negocio.",
+         "en": "Now I have the knowledge, the ability, and the passion to help you create the next website that's going to boost your business.."
+      },
+      "text4": {
          "es": "Estas son mis habilidades de programación actuales:",
          "en": "These are my current programming skill:"
       }

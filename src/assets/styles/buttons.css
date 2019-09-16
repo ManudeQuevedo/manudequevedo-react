@@ -22,12 +22,14 @@
   text-decoration: none;
   text-align: center;
   transition: 500ms all;
+  cursor: pointer;
 }
 
 .btn-ghost:hover {
   background-color: #13eba2;
   color: #fff;
   transition: 300ms all;
+  cursor: pointer;
 }
 
 .btn {

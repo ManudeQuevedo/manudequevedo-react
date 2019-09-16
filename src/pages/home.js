@@ -68,10 +68,7 @@ export default connect(mapStateToProps)(props => {
               </div>
             </div>
             <div className="work-together3">
-              <Link
-                to="/contact"
-                className="btn-bigger btn-ghost"
-              >
+              <Link to="/contact" className="btn-bigger btn-ghost">
                 {homeLang.steps.learn.button[props.lang]}
               </Link>
             </div>

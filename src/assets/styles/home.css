@@ -2,7 +2,6 @@
   background-repeat: repeat-x;
   background-position: center;
   background-size: cover;
-  animation: animatedBackground 120s linear infinite;
   display: grid;
   grid-template-columns: 1fr 1280px 1fr;
   box-sizing: border-box;
@@ -16,6 +15,7 @@
    top:0;
    width:100vw;
    height:100vh;
+   z-index: -1;
 }
 
 .banner-home > .content-basic {
@@ -57,10 +57,6 @@
   color: #444c52;
 }
 
-.optional-links > a > span {
-  color: #0280c2;
-}
-
 .card-a > .text {
    color: #1b1a1f;
    font-family: 'Montserrat';
@@ -98,7 +94,7 @@ img.image {
    font-weight: 400;
 }
 
-.grid-2 > .work-together3 {
+.work-together3 {
    text-align: center;
 }
 
