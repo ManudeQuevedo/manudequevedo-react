@@ -79,7 +79,17 @@ ul.list-item {
    }
 
    .about-center img {
-   width: 350px;
-   margin: 0 auto;
-}
+      width: 350px;
+      margin: 0 auto;
+   }
+
+   .skills-subtitle {
+      color: #1b1a1f;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: -20px;
+      text-transform: uppercase;
+      background: #ececec;
+   }
 }
