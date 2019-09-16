@@ -41,8 +41,8 @@ export default connect(mapStateToProps)(props => {
       </div>
       <div className="skills-container base-grid">
         <div className="content-basic">
+          <h2 className="skills-subtitle">{aboutLang.header.text4[props.lang]}</h2>
           <div className="grid-4">
-            <h2 className="skills-subtitle">{aboutLang.header.text4[props.lang]}</h2>
             <div className="front-end-skills">
               <h3 className="skills-title">
                 {aboutLang.skills.title1[props.lang]}
