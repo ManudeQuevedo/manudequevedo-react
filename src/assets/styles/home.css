@@ -65,6 +65,7 @@
    line-height: 2rem;
    min-height: 100px;
    margin-top: 75px;
+   background: #fff;
 }
 
 .card-a > .text:nth-of-type(2) {
@@ -73,7 +74,7 @@
 
 img.image {
   width: 500px;
-  z-index: 1;
+  background: #fff;
 }
 
 .line-break {
@@ -92,6 +93,7 @@ img.image {
    font-family: 'Satisfy', serif;
    font-size: 6.5rem;
    font-weight: 400;
+   background: #ececec;
 }
 
 .work-together3 {
@@ -100,7 +102,7 @@ img.image {
 
 .learnMore {
   display: grid;
-  background-color: #ececec9a;
+  background-color: #ececec;
 }
 
 @keyframes animatedBackground {

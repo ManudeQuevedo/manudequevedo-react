@@ -4,12 +4,17 @@
    width: 700px;
 }
 
+p {
+   background: #fff;
+}
+
 .about-title {
    color: #13eba2;
    font-family: 'Satisfy', serif;
    font-size: 3rem;
    font-weight: normal;
    margin: 40px 0;
+   background: #fff;
 }
 
 .about-text {
@@ -18,6 +23,7 @@
    font-size: 1.3rem;
    font-weight: 400;
    margin-top: 40px;
+   background: #fff;
 }
 
 .about-center img {
@@ -26,7 +32,7 @@
 }
 
 .skills-container {
-   background-color: #ececec9a;
+   background-color: #ececec;
    display: grid;
 }
 
@@ -34,6 +40,7 @@
    color: #13eba2;
    font-family: 'Satisfy', serif;
    font-size: 1.6rem;
+   background: #ececec;
 }
 
 .skills-subtitle {
@@ -43,17 +50,20 @@
    font-weight: 700;
    margin-top: -20px;
    text-transform: uppercase;
+   background: #ececec;
 }
 
 ul.list-item {
    font-family: 'Montserrat', sans-serif;
    font-size: 1.1rem;
    list-style-type: none;
+   background: #ececec;
 }
 
 .list-item > li {
    list-style-image: url('../img/dot.svg');
    list-style-position: inherit;
+   background: #ececec;
 }
 
 @media only screen and (max-width: 720px) {

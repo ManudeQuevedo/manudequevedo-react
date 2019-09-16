@@ -10,6 +10,7 @@ span.footer-dev {
 }
 
 .footer-bottom {
+  background: #fff;
   box-shadow: 5px 5px 10px #444c523b;
   z-index: 100;
 }

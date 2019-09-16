@@ -1,8 +1,10 @@
 .contact-image {
+   background: #fff;
    width: 550px;
 }
 
 .contact-email {
+   background: #fff;
    text-align: center;
 }
 
@@ -13,6 +15,7 @@
 
 .contact-email > h1,
 .contact-social > h1 {
+   background: #fff;
    font-family: 'Montserrat', sans-serif;
    weight: 400 !important;
 }
@@ -22,11 +25,12 @@
 }
 
 .text {
-  color: #13eba2;
-  font-family: 'Satisfy', serif;
-  font-size: 2.2rem;
-  font-weight: regular;
-  margin: 80px 0;
+   background: #fff;
+   color: #13eba2;
+   font-family: 'Satisfy', serif;
+   font-size: 2.2rem;
+   font-weight: regular;
+   margin: 80px 0;
 }
 
 .italyc-text {
@@ -38,16 +42,19 @@
 
 @media only screen and (max-width: 720px) {
    .contact-image {
+      background: #fff;
       width: 370px;
    }
 
    .contact-social {
+      background: #fff;
       margin: 0 auto;
       text-align: center;
       width: 100%;
    }
 
    .contact-social > h1 {
+      background: #fff;
       text-align: center !important;
       width: 100%;
    }
