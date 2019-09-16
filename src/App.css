@@ -197,6 +197,11 @@ body {
 }
 
 @media only screen and (max-width: 720px) {
+  .base-grid {
+    grid-template-columns: 1fr;
+    padding: 0px 10px;
+  }
+  
   .grid-2 {
     display: grid;
     grid-template-columns: 1fr;
