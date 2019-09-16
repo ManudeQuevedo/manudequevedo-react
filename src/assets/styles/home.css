@@ -163,7 +163,24 @@ img.image {
       margin-top: 50px;
    }
 
-   .grid-2 {
-      padding: 0;
-   }
+  .grid-2 {
+    padding: 0;
+  }
+
+  .work-together {
+    color: #1b1a1f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .work-together2 {
+    color: #13eba2;
+    background: #ececec;
+    font-family: 'Satisfy', serif;
+    font-size: 6.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
 }

@@ -52,7 +52,7 @@ export default connect(mapStateToProps)(props => {
               </div>
             </div>
             <div className="card-a">
-              <img className="image" src={HomeImage} alt="Programemer" />
+              <img className="image" src={HomeImage} alt="Programmer" />
             </div>
           </div>
           <div />
