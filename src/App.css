@@ -201,6 +201,11 @@ body {
     grid-template-columns: 1fr;
     padding: 0;
   }
+
+  .grid-1 {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
   
   .grid-2 {
     display: grid;
