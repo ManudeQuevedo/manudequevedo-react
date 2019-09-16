@@ -16,7 +16,7 @@ export default connect(mapStateToProps)(props => {
         <div className="content-basic">
           <div>
             <div className="footer-copyrights">
-              © {new Date().getFullYear()} - <span className="footer-dev">Manu de Quevedo, </span>
+              © {new Date().getFullYear()} - <span className="footer-dev">Manu de Quevedo </span>
               {footerLang.header.rights[props.lang]}
             </div>
           </div>

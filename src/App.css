@@ -22,10 +22,6 @@ body {
   grid-template-columns: 1fr 1280px 1fr;
 }
 
-.bg-blue {
-  background-color: #0280c2;
-}
-
 .content-basic {
   display: grid;
   grid-column: 2;
@@ -44,18 +40,18 @@ body {
 .content-basic > .title > h1 {
   margin: 0;
   text-transform: uppercase;
-  color: #0280c2;
+  color: #13eba2;
 }
 
 .content-basic > .title > h3 {
   margin: 5px 0;
-  color: #8e969b;
+  color: #8e969b; 
 }
 
 .grid-1 {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 50px 10px;
+    padding: 50px   10px;
     background: transparent;
   }
 

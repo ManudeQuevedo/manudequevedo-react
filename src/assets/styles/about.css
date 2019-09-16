@@ -79,8 +79,17 @@ ul.list-item {
    }
 
    .about-center img {
-      width: 350px;
+      width: 330px;
       margin: 0 auto;
+   }
+
+   .about-title {
+      color: #13eba2;
+      background: #fff;
+      font-family: 'Satisfy', serif;
+      font-size: 2.5rem;
+      font-weight: normal;
+      margin: 40px 0 40px 10px;
    }
 
    .about-text {

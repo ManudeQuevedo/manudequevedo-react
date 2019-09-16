@@ -35,9 +35,17 @@ span.footer-dev {
     text-align: center;
     grid-row-gap: 20px;
   }
+
+  .footer-copyrights {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+  }
+
   .footer-bottom > .content-basic > div:first-child {
     text-align: center;
   }
+  
   .footer-bottom > .content-basic > div:last-child {
     justify-items: center;
   }
