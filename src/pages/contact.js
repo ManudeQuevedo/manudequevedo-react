@@ -2,7 +2,6 @@ import React from "react"
 import { connect } from "react-redux"
 import contactLang from "./contact.lang.json"
 import contactImage from '../assets/img/contact.svg'
-import { Link } from "react-router-dom"
 import Particles from "react-particles-js"
 import ParticlesJS from "../assets/particlesjs-contact-config.json"
 import Facebook from "../assets/img/facebook.png"

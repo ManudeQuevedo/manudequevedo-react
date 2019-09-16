@@ -2,9 +2,11 @@ import React from "react"
 import { connect } from "react-redux"
 import aboutLang from "./about.lang.json"
 import Image from '../assets/img/computer.svg'
-import '../assets/styles/about.css'
 import Particles from "react-particles-js"
 import ParticlesJS from "../assets/particlesjs-about-config.json"
+import Ghost from '../assets/img/ghost.png'
+import Manu from '../assets/img/manu.jpg'
+import '../assets/styles/about.css'
 
 const mapStateToProps = state => {
   return {
@@ -24,9 +26,14 @@ export default connect(mapStateToProps)(props => {
                 {aboutLang.header.title[props.lang]}
               </h1>
               <p>{aboutLang.header.text1[props.lang]}</p>
+              <div className="grid-1 about-center">
+                <img src={Ghost} alt="My dog" />
+              </div>
               <p>{aboutLang.header.text2[props.lang]}</p>
+              <div className="grid-1 about-center">
+                <img src={Manu} alt="Myself" />
+              </div>
               <p>{aboutLang.header.text3[props.lang]}</p>
-              <p>{aboutLang.header.text4[props.lang]}</p>
               <Particles className="particle-canvas" params={ParticlesJS} />
             </div>
           </div>
@@ -35,6 +42,7 @@ export default connect(mapStateToProps)(props => {
       <div className="skills-container base-grid">
         <div className="content-basic">
           <div className="grid-4">
+            <h2 className="skills-subtitle">{aboutLang.header.text4[props.lang]}</h2>
             <div className="front-end-skills">
               <h3 className="skills-title">
                 {aboutLang.skills.title1[props.lang]}

@@ -20,6 +20,11 @@
    margin-top: 40px;
 }
 
+.about-center img {
+   width: 400px;
+   margin: 0 auto;
+}
+
 .skills-container {
    background-color: #ececec9a;
    display: grid;
@@ -29,6 +34,14 @@
    color: #13eba2;
    font-family: 'Satisfy', serif;
    font-size: 1.6rem;
+}
+
+.skills-subtitle {
+   color: #1b1a1f;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   margin-top: -20px;
+   text-transform: uppercase;
 }
 
 ul.list-item {
@@ -53,4 +66,9 @@ ul.list-item {
       padding: 50px 0;
       width: 300px;
    }
+
+   .about-center img {
+   width: 350px;
+   margin: 0 auto;
+}
 }
