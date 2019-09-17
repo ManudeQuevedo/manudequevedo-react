@@ -4,10 +4,12 @@ import contactLang from "./contact.lang.json"
 import contactImage from '../assets/img/contact.svg'
 import Particles from "react-particles-js"
 import ParticlesJS from "../assets/particlesjs-contact-config.json"
-import Facebook from "../assets/img/facebook.png"
-import Pinterest from "../assets/img/pinterest.png"
-import Twitter from '../assets/img/twitter.png'
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import '../assets/styles/contact.css'
+
+library.add(faTwitter, faFacebookF, faInstagram);
 
 
 const mapStateToProps = state => {
@@ -53,25 +55,40 @@ export default connect(mapStateToProps)(props => {
             <div className="contact-social">
               <h1>{contactLang.header.social[props.lang]}</h1>
               <a
-                href="https://twitter.com/ManudeQuevedo"
+                href="https://twitter.com/ManuDevMx"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={Twitter} alt="twitter logo" />
+                <FontAwesomeIcon
+                  icon={["fab", "twitter"]}
+                  size="2x"
+                  color="#13eba2"
+                  className="social-media-icon"
+                />
               </a>
               <a
                 href="https://www.facebook.com/elmanumx/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={Facebook} alt="facebook logo" />
+                <FontAwesomeIcon
+                  icon={["fab", "facebook-f"]}
+                  size="2x"
+                  color="#13eba2"
+                  className="social-media-icon"
+                />
               </a>
               <a
                 href="https://www.pinterest.com.mx/manudequevedo/overview/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={Pinterest} alt="pinterest logo" />
+                <FontAwesomeIcon
+                  icon={["fab", "instagram"]}
+                  size="2x"
+                  color="#13eba2"
+                  className="social-media-icon"
+                />
               </a>
             </div>
           </div>
