@@ -79,7 +79,7 @@ export default connect(mapStateToProps)(props => {
                 />
               </a>
               <a
-                href="https://www.pinterest.com.mx/manudequevedo/overview/"
+                href="https://www.instagram.com/manudevmx/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
