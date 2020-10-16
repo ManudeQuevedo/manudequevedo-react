@@ -44,12 +44,12 @@ export default connect(mapStateToProps)(props => {
             <div className="contact-email">
               <h1>{contactLang.header.email[props.lang]}</h1>
               <a
-                href="mailto:hola@manudequevedo.com"
+                href="mailto:manudequevedo@gmail.com"
                 className="btn btn-ghost callToAction"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                hola@manudequevedo.com
+                manudequevedo@gmail.com
               </a>
             </div>
             <div className="contact-social">
