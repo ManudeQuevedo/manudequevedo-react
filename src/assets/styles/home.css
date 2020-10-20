@@ -34,8 +34,9 @@
 }
 
 .banner-home > .content-basic > h2 {
-   font-family: 'Satisfy', serif;
+   font-family: 'Montserrat', serif;
    font-size: 60px;
+   font-weight: 800;
    color: #13eba2;
    margin: 0;
 }
